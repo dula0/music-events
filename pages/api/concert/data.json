@@ -1,0 +1,76 @@
+{
+    "events": [
+        {
+            "id": "1",
+            "name": "Stephen Marley at The Roxy Theatre",
+            "slug": "stephen-marley-at-the-roxy-theatre",
+            "venue": "Roxy Theatre",
+            "address": "9009 Sunset Blvd, West Hollywood, CA 90069",
+            "performers": "Stephen Marley",
+            "date": "October 31, 2021",
+            "time": "8:00 PM PST",
+            "description": "A Jamaican-American musician and is the son of Bob Marley. Marley is an eight-time Grammy Award winner, three times as a solo artist, twice as a producer of younger brother Damian Marley's Halfway Tree and Welcome to Jamrock albums, and a further three times as a member of his older brother Ziggy Marley's group Ziggy Marley & The Melody Makers.",
+            "images": "/images/concerts/event1.webp"
+        },
+        {
+            "id": "2",
+            "name": "Dread Mar at The Hollywood Bowl",
+            "slug": "dread-mar-at-the-hollywood-bowl",
+            "venue": "Hollywood Bowl",
+            "address": "2301 N Highland Ave, Los Angeles, CA 90068",
+            "performers": "Dread Mar",
+            "date": "November 1, 2021",
+            "time": "11:00 PM PST",
+            "description": "Dread Mar-I is a charting, best-selling Argentine reggae singer, songwriter, and bandleader. His sensual, passionate vocal delivery ranges over a style that combines deep roots reggae with the sweetness of lovers rock. Dread was born Mariano Javier Castro in Quequén, Argentina in January of 1978.",
+            "images": "/images/concerts/event2.webp"
+        },
+        {
+            "id": "3",
+            "name": "Chronixx at The El Rey Theatre",
+            "slug": "chronixx-at-the-el-rey-theatre",
+            "venue": "El Rey Theatre",
+            "address": "5515 Wilshire Blvd, Los Angeles, CA 90036",
+            "performers": "Chronixx",
+            "date": "November 22, 2021",
+            "time": "8:00 PM PST",
+            "description": "Jamar Rolando McNaughton, popularly known as Chronixx, is a Jamaican reggae artist. His stage name replaced the name Little Chronicle which he was given because of his father, the singer Chronicle.",
+            "images": "/images/concerts/event3.webp"
+        },
+        {
+            "id": "4",
+            "name": "Earl Sweatshirt at The Roxy Theatre",
+            "slug": "earl-sweatshirt-at-the-roxy-theatre",
+            "venue": "Roxy Theatre",
+            "address": " 9009 Sunset Blvd, West Hollywood, CA 90069",
+            "performers": "Stephen Marley",
+            "date": "November 1, 2021",
+            "time": "10:00 PM PST",
+            "description": "AThebe Neruda Kgositsile, also known by his stage name Earl Sweatshirt, is an American rapper, songwriter, and record producer.",
+            "images": "/images/concerts/event4.webp"
+        },
+        {
+            "id": "5",
+            "name": "Stephen Marley at The Greek Theatre",
+            "slug": "lil-durk-at-the-greek-theatre",
+            "venue": "The Greek Theatre",
+            "address": "2700 N Vermont Ave, Los Angeles, CA 90027",
+            "performers": "Lil Durk",
+            "date": "October 31, 2021",
+            "time": "8:00 PM PST",
+            "description": "Durk Derrick Banks (born October 19, 1992), known professionally as Lil Durk, is an American rapper and singer from Chicago, Illinois.[6] He is the lead member and founder of the collective and record label, Only the Family (OTF).",
+            "images": "/images/concerts/event5.webp"
+        },
+        {
+            "id": "6",
+            "name": "Lil baby at The Wiltern Theatre",
+            "slug": "lil-baby-at-the-wiltern-theatre",
+            "venue": "Roxy Theatre",
+            "address": "3790 Wilshire Blvd, Los Angeles, CA 90010",
+            "performers": "Lil baby",
+            "date": "October 31, 2021",
+            "time": "8:00 PM PST",
+            "description": "Dominique Armani Jones, known professionally as Lil Baby, is an American rapper. He rose to mainstream fame in 2017 following the release of his mixtape Perfect Timing.",
+            "images": "/images/concerts/event6.webp"
+        }
+    ]
+}
