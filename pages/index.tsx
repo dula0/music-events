@@ -1,10 +1,26 @@
-import styled from 'styled-components'
+import EventListing from "@/components/EventListing";
+import Layout from "@/components/Layout";
+import { API_URL } from "@/config/index";
 
-const Title = styled.h1`
-  color: red;
-  font-size: 50px;
-`
+export default function Home({ events }: any) {
+  return (
+    <Layout>
+      <h1>Upcoming Events in Los Angeles</h1>
+      {events.length === 0 && <h3>No events to show currently</h3>}
 
-export default function Home() {
-  return <Title>My page</Title>
+      {events.map((ev: any) => (
+        <EventListing key={ev.id} evt={ev} />
+      ))}
+    </Layout>
+  );
+}
+
+export async function getStaticProps() {
+  const res = await fetch(`${API_URL}/api/events`);
+  const events = await res.json();
+
+  return {
+    props: { events },
+    revalidate: 1,
+  };
 }
