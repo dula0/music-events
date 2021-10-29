@@ -15,7 +15,7 @@ function EventListing({evt}: any) {
     <EventContainer>
       <ImageWrapper>
         <Image
-          src={evt.image ? evt.image : "/images/default.webp"}
+          src={evt.images ? evt.images : "/images/default.webp"}
           width={170}
           height={100}
         />

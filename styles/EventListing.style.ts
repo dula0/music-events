@@ -16,6 +16,7 @@ export const EventContainer = styled.div`
 export const ImageWrapper =  styled.div`
     flex: 1;
     margin: 10px;
+    border-radius: 30px;
 `
 export const Info = styled.div`
     flex: 2;

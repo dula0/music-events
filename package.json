@@ -1,6 +1,8 @@
 {
   "private": true,
-  "repository": {"url": "https://github.com/dula0/music-events"},
+  "repository": {
+    "url": "https://github.com/dula0/music-events"
+  },
   "scripts": {
     "dev": "next",
     "build": "next build",
