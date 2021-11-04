@@ -9,6 +9,12 @@ const Container = styled.div`
   border: 2px solid;
   margin: 42px;
   padding: 5px;
+  @media (max-width: 1235px) {
+    margin: 96px 12px;
+  }
+  @media (max-width: 768px) {
+    margin: 125px 15px;
+  }
 `;
 
 const Toggle = ({ theme, toggleTheme }: any) => {

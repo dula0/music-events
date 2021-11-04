@@ -4,11 +4,11 @@ export const EventContainer = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 20px 0;
+    margin: 20px 10px;
     padding: 13px;
     box-shadow: 2px 3px 5px rgba(0,0,0,0.1);
 
-    @media (max-width: 600px) {
+    @media (max-width: 900px) {
         flex-direction: column;
         text-align: center;
     }

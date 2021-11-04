@@ -10,7 +10,7 @@ const Header = () => {
       <Logo>
         <Link href="/">
           <BrandLink>
-            Ticketeer &nbsp; <GiTicket />
+            Ticketeer &nbsp; <GiTicket color={"lightgreen"} size={23}/>
           </BrandLink>
         </Link>
       </Logo>
@@ -18,7 +18,7 @@ const Header = () => {
         <UL>
           <li>
             <Link href="/events">
-              <a>Events</a>
+              <button className="btn-primary"><a>Events</a></button>
             </Link>
           </li>
         </UL>
