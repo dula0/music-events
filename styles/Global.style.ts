@@ -20,16 +20,19 @@ export const GlobalStyle = createGlobalStyle`
     .btn-secondary {
         background-color: ${({ theme }: any) => theme.primary}; 
     }
+    .round {
+        border-radius: 32px;
+    }
 `
 
 export const lightTheme = {
     body: '#fff',
     text: '#121212',
-    primary: "#53c187"
+    primary: "#B3BCB6"
 }
 
 export const darkTheme = {
     body: '#121212',
     text: '#fff',
-    primary: "#d18551"
+    primary: "#606C64"
 }

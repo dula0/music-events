@@ -1,20 +1,10 @@
 import React from "react";
 import { BiSun } from "react-icons/bi";
-import { GiMoonBats } from "react-icons/gi";
+import { FaMoon } from "react-icons/fa";
 import styled from "styled-components";
 
 const Container = styled.div`
-  position: fixed;
-  border-radius: 23px;
-  border: 2px solid;
-  margin: 42px;
-  padding: 5px;
-  @media (max-width: 1235px) {
-    margin: 96px 12px;
-  }
-  @media (max-width: 768px) {
-    margin: 125px 15px;
-  }
+  margin: 0 42px;
 `;
 
 const Toggle = ({ theme, toggleTheme }: any) => {
@@ -23,7 +13,7 @@ const Toggle = ({ theme, toggleTheme }: any) => {
       {theme === "dark" ? (
         <BiSun color="yellow" size={32} />
       ) : (
-        <GiMoonBats size={32} />
+        <FaMoon size={32} />
       )}
     </Container>
   );

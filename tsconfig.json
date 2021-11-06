@@ -38,5 +38,5 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-, "pages/api/concert/index.js"  ]
+, "pages/api/concert/index.js", "components/Carousel.jsx"  ]
 }

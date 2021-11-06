@@ -13,6 +13,7 @@ const Header = () => {
             Ticketeer &nbsp; <GiTicket color={"lightgreen"} size={23}/>
           </BrandLink>
         </Link>
+        
       </Logo>
       <nav>
         <UL>
