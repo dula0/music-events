@@ -19,7 +19,7 @@ const Header = () => {
         <UL>
           <li>
             <Link href="/events">
-              <button className="btn-primary"><a>Events</a></button>
+              <button><a>Events</a></button>
             </Link>
           </li>
         </UL>
