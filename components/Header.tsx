@@ -10,16 +10,17 @@ const Header = () => {
       <Logo>
         <Link href="/">
           <BrandLink>
-            Ticketeer &nbsp; <GiTicket color={"lightgreen"} size={23}/>
+            Ticketeer &nbsp; <GiTicket size={23} />
           </BrandLink>
         </Link>
-        
       </Logo>
       <nav>
         <UL>
           <li>
             <Link href="/events">
-              <button><a>Events</a></button>
+              <button>
+                <a>Events</a>
+              </button>
             </Link>
           </li>
         </UL>

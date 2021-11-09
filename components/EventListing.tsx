@@ -8,14 +8,14 @@ import {
   Name,
 } from "@/styles/EventListing.style";
 
-
-
-function EventListing({evt}: any) {
+function EventListing({ evt }: any) {
   return (
     <EventContainer>
       <ImageWrapper>
         <Image
-          src={evt.images ? evt.images : "/images/default.webp"}
+          src={
+            evt.image ? evt.image.formats.thumbnail.url : "/images/default.webp"
+          }
           width={170}
           height={100}
         />
@@ -25,6 +25,7 @@ function EventListing({evt}: any) {
           </Schedule>
           <Name>{evt.name}</Name>
         </Info>
+        
       </ImageWrapper>
     </EventContainer>
   );

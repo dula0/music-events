@@ -19,9 +19,10 @@ export const Logo =  styled.div`
 export const BrandLink = styled.a`
     margin-right: 20px;
     color: tomato;
+    font-family: 'Poppins';
     cursor: pointer;
-    ::hover {
-        color: thistle;
+    :hover {
+        color: blue;
     }
     @media (max-width: 768px) {
         margin-right: 0;

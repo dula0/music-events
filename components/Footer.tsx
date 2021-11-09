@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
+import {Container, FooterBottom, FooterTop} from "@/styles/Footer.style";
 
 const Footer = () => {
-    return (
-        <div>
-            
-        </div>
-    )
-}
+  return <Container>
+      <FooterTop></FooterTop>
+      <FooterBottom></FooterBottom>
+  </Container>;
+};
 
-export default Footer
+export default Footer;
