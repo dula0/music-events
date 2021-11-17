@@ -5,6 +5,10 @@ import { FaPencilAlt, FaTimes } from "react-icons/fa";
 import {} from "@/styles/Tickets.styles";
 import { API_URL } from "@/config/index";
 import Layout from "@/components/Layout";
+import { useRouter } from "next/router";
+import { FaPencilAlt, FaTimes } from "react-icons/fa";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css"
 
 export default function TicketsPage({ticket}) {
 

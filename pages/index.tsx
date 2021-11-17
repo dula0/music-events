@@ -20,7 +20,7 @@ export default function Home({ events }: any) {
 }
 
 export async function getStaticProps() {
-  const res = await fetch(`${API_URL}/api/concert`);
+  const res = await fetch(`${API_URL}/tickets`);
   const events = await res.json();
 
   return {

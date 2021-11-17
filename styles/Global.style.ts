@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components'
+import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
     body { 
@@ -7,7 +7,7 @@ export const GlobalStyle = createGlobalStyle`
     }
     button {
         border-radius: 35px;
-        border: 1px solid ${({theme}) => theme.text};
+        border: 1px solid ${({ theme }) => theme.text};
         width: 6.5rem;
         height: 2.5rem;
     }
@@ -23,16 +23,21 @@ export const GlobalStyle = createGlobalStyle`
     .round {
         border-radius: 32px;
     }
-`
+    .submit {
+        display: block;
+        width: 100%;
+        margin: 20px 0 30px;
+    }
+`;
 
 export const lightTheme = {
-    body: '#fff',
-    text: '#121212',
-    primary: "#B3BCB6"
-}
+  body: "#fff",
+  text: "#121212",
+  primary: "#B3BCB6",
+};
 
 export const darkTheme = {
-    body: '#121212',
-    text: '#fff',
-    primary: "#1a0749"
-}
+  body: "#121212",
+  text: "#fff",
+  primary: "#1a0749",
+};
